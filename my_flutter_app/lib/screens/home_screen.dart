@@ -20,7 +20,7 @@ class _HomeScreenState extends State<HomeScreen> {
   final FacebookService _facebookService = FacebookService();
   List<VideoModel> _videos = [];
   List<VideoModel> _facebookVideos = [];
-  bool _isLoading = true;
+  bool _isLoading = false;
   bool _isLoadingFacebook = true;
   final ImagePicker _picker = ImagePicker();
   bool _isUploading = false;
