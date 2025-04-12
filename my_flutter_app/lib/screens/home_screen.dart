@@ -22,7 +22,7 @@ class _HomeScreenState extends State<HomeScreen> {
   List<VideoModel> _facebookVideos = [];
   bool _isLoading = false;
   bool _isLoadingFacebook = true;
-  final ImagePicker _picker = ImagePicker();
+
   bool _isUploading = false;
   int _selectedIndex = 0;
   final TextEditingController _searchController = TextEditingController();
